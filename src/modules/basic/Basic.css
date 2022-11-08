@@ -1,0 +1,22 @@
+.first-box {
+    width: 50%;
+    height: 300px;
+    background-color: green;
+    margin: 5px 8px 9px 10px;
+    padding: 5px 6px 9px 10px;
+    display:  inline-block;
+    /* display: none; */
+}
+
+.second-box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px 8px 9px 10px;
+    padding: 5px 6px 9px 10px;
+    display:  inline-block;
+} 
+
+.second-box:hover {
+    background-color: yellow;
+}
