@@ -1,16 +1,12 @@
 import './App.css';
-import MoreSelector from './module4/more-selector/MoreSelector';
-import Basic from './modules/basic/Basic';
-import Boxes from './modules/boxes/Boxes';
-import Navigation from './modules/nav/navigation';
+import Footer from './modules/footer/Footer';
+import Header from './modules/header/header';
 
 function App() {
   return (
     <div>
-      <Navigation />
-      <Boxes/>
-      {/* <Basic/>
-      <MoreSelector/> */}
+      <Header />
+      <Footer/>
     </div>
   );
 }
