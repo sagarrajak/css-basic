@@ -55,29 +55,35 @@ function Boxes() {
                     </article>
                 </div>
             </section>
-            <section>
-                <h1>Many Good Reasons to Stick Around</h1>
-                <ul>
-                    <li>
-                        <div>
-
-                        </div>
-                        <p>3,857,000 Trusting Customers</p>
+            <section id='key-features'>
+                <h1 className="section-title">Many Good Reasons to Stick Around</h1>
+                <ul className='key-features__list'>
+                    <li className='key-feature'>
+                        <div className='key-feature__image'></div>
+                        <p className='key-feature__description'>3,857,000 Trusting Customers</p>
                     </li>
-                    <li>
-                        <div>
-
-                        </div>
-                        <p>99.999% Uptime Guarantee</p>
+                    <li className='key-feature'>
+                        <div className='key-feature__image'></div>
+                        <p className='key-feature__description'>99.999% Uptime Guarantee</p>
                     </li>
-                    <li>
-                        <div>
-
-                        </div>
-                        <p>Lightning Fast CDN</p>
+                    <li className='key-feature'>
+                        <div className='key-feature__image'></div>
+                        <p className='key-feature__description'>Lightning Fast CDN</p>
                     </li>
                 </ul>
             </section>
+            <footer className="main-footer">
+                <nav>
+                    <ul className="main-footer__links">
+                        <li className="main-footer__link">
+                            <a href="#">Support</a>
+                        </li>
+                        <li className="main-footer__link">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
         </div>
     )
 }
