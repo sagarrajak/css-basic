@@ -5,7 +5,6 @@ import './header.css';
 function Header() {
     return (
         <>
-            <div className='backgroud'></div>
             <header className='main-header'>
                 <div>
                     <Link to="/" className='main-header__brand'>
