@@ -6,11 +6,6 @@ import './Footer.css';
 function Footer() {
     return (
         <div>
-            <section id="product-overview">
-                <h1>Get the freedom you deserve.</h1>
-            </section>
-            {/* <Plans/> */}
-            <Details/>
             <footer className="main-footer">
                 <nav>
                     <ul className="main-footer__links">

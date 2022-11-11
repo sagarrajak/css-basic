@@ -4,9 +4,12 @@ import './Plans.css'
 function Plans() {
   return (
     <>
+      <section id="product-overview">
+        <h1>Get the freedom you deserve.</h1>
+      </section>
       <section id="plans">
         <h1 className="section-title">Choose Your Plan</h1>
-        <div>
+        <div className="plan__list">
           <article className='plan'>
             <h1 className='plan__title'>FREE</h1>
             <h2 className='plan__price'>$0/month</h2>

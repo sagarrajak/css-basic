@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 
-function Navigation() {
+function Header() {
     return (
         <header className='main-header'>
             <div>
@@ -25,4 +25,4 @@ function Navigation() {
     )
 }
 
-export default Navigation
+export default Header;

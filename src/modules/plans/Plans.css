@@ -89,6 +89,12 @@
     outline: none;
 }
 
+.plan__list {
+   width: 80%;  
+   margin: auto;
+   text-align: center;
+}
+
 #key-features {
     background-color: #ff1b68;
     margin-top: 80px;
