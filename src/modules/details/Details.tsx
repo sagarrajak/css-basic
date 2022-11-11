@@ -3,10 +3,11 @@ import './Details.css';
 
 function Details() {
   return (
-    <div>
+    <div className='main'>
       <section className="package" id="plus">
         <a href="#">
           <h1 className="package__title">Our PLUS Plan</h1>
+          <h2 className="package__badge">RECOMMENDED</h2>
           <h2 className="package__subtitle ">The most popular choice of our customers.</h2>
           <p className="package__info">Benefit from increased storage and faster support to ensure that your mission-critical data and applications
             are always available!</p>

@@ -1,17 +1,17 @@
+import { Outlet, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Details from './modules/details/Details';
-import Footer from './modules/footer/Footer';
-import Header from './modules/header/header';
+import Layout from './modules/Layout/Layout';
 import Plans from './modules/plans/Plans';
 
 function App() {
   return (
-    <div>
-      <Header />
-            <Plans/>
-            {/* <Details/> */}
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Plans/>}></Route>
+        <Route path='details' element={<Details />}></Route>
+      </Route>
+    </Routes>
   );
 }
 
