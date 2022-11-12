@@ -1,5 +1,8 @@
 .backgroud {
   background: url("/public/plans-background.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(60%);
   width: 100%;
   height: 100%;
   position: fixed;

@@ -146,4 +146,10 @@
     height: 128px;
     border-radius: 64px;
     margin: auto;
+    display: inline-block;
 } 
+
+.key-feature__image > img {
+    margin: auto;
+    padding: 30px;
+}

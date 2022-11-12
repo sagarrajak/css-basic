@@ -59,15 +59,21 @@ function Plans() {
         <h1 className="section-title">Many Good Reasons to Stick Around</h1>
         <ul className='key-features__list'>
           <li className='key-feature'>
-            <div className='key-feature__image'></div>
+            <div className='key-feature__image'>
+              <img src='svg1.svg' alt='sdsdsd' />
+            </div>
             <p className='key-feature__description'>3,857,000 Trusting Customers</p>
           </li>
           <li className='key-feature'>
-            <div className='key-feature__image'></div>
+            <div className='key-feature__image'>
+              <img src='svg2.svg' alt='sdsdsd' />
+            </div>
             <p className='key-feature__description'>99.999% Uptime Guarantee</p>
           </li>
           <li className='key-feature'>
-            <div className='key-feature__image'></div>
+            <div className='key-feature__image'>
+              <img src='svg3.svg' alt='sdsdsd' />
+            </div>
             <p className='key-feature__description'>Lightning Fast CDN</p>
           </li>
         </ul>
