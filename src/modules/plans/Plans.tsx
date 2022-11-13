@@ -2,6 +2,19 @@ import React from 'react'
 import './Plans.css'
 
 function Plans() {
+
+  const showButton = () => {
+    let backdrop: any = document.querySelector(".backdrop");
+    let model: any = document.querySelector(".modal");
+
+    if (backdrop && backdrop.style) {
+      backdrop.style.display = 'block';
+    }
+    if (model && model.style) {
+      model.style.display = 'block';
+    }
+  };
+
   return (
     <>
       <section id="product-overview">
@@ -21,7 +34,7 @@ function Plans() {
               <li className='plan__feature'>Basic Support</li>
             </ul>
             <div>
-              <button className='button'>CHOOSE PLAN</button>
+              <button className='button' onClick={showButton}>CHOOSE PLAN</button>
             </div>
           </article>
           <article className='plan plan--highlighted'>
@@ -36,7 +49,7 @@ function Plans() {
               <li className='plan__feature'>Plus Support</li>
             </ul>
             <div>
-              <button className='button'>CHOOSE PLAN</button>
+              <button className='button' onClick={showButton}>CHOOSE PLAN</button>
             </div>
           </article>
           <article className='plan'>
@@ -50,7 +63,7 @@ function Plans() {
               <li className='plan__feature'>Priority Support</li>
             </ul>
             <div>
-              <button className='button'>CHOOSE PLAN</button>
+              <button className='button' onClick={showButton}>CHOOSE PLAN</button>
             </div>
           </article>
         </div>
