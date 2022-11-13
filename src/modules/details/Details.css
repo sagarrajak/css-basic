@@ -14,15 +14,15 @@
 }
 
 .main {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .package {
   width: 80%;
-  border: 5px solid black;
+  border: 0.25rem solid black;
   border-left: none;
   vertical-align: middle;
-  margin: 16px 0;
+  margin: 1rem 0;
   position: relative;
   z-index: 0;
 }
@@ -37,24 +37,24 @@
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .package__badge {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
-  font-size: 12px;
+  margin: 1.25rem;
+  font-size: 0.75rem;
   color: white;
   background-color: #ff5454;
-  height: 48px;
-  width: 160px;
+  height: 3rem;
+  width: 10rem;
   border: #ff5454;
-  border-radius: 32px;
+  border-radius: 2rem;
   text-align: center;
   vertical-align: middle;
-  padding: 16px;
+  padding: 1rem;
   z-index: 10;
 }
 
@@ -63,9 +63,9 @@
 }
 
 .package__info {
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid #0e4f1f;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #0e4f1f;
   background-color: white;
 }

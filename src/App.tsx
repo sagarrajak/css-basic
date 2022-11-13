@@ -7,13 +7,17 @@ import Plans from './modules/plans/Plans';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Layout />}>
-        <Route index element={<Plans />}></Route>
-        <Route path='details' element={<Details />}></Route>
-        <Route path='customer' element={<Customer />}></Route>
-      </Route>
-    </Routes>
+    <>
+      <div className='backdrop'></div>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Plans />}></Route>
+          <Route path='details' element={<Details />}></Route>
+          <Route path='customer' element={<Customer />}></Route>
+        </Route>
+      </Routes>
+    </>
+
   );
 }
 
