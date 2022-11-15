@@ -34,3 +34,9 @@ code {
   top: 0;
   left: 0;
 }
+
+#content {
+  min-height: calc(100vh - 4rem - 8rem);
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+}
