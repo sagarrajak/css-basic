@@ -8,7 +8,7 @@
   position: fixed;
   /* z index not work without position  */
   /* z index depends upon order of div in dom */
-  z-index: -1; 
+  z-index: -1;
   top: 0;
   left: 0;
 }
@@ -41,10 +41,10 @@
 }
 
 .package__badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 1.25rem;
+  position: relative;
+  /* top: 0;
+  right: 0; */
+
   font-size: 0.75rem;
   color: white;
   background-color: #ff5454;
@@ -88,7 +88,6 @@
   border-color: #ff5454;
 }
 
-
 .clearfix {
   clear: both;
 }
@@ -104,3 +103,24 @@
 #premium .package__subtitle {
   color: #bbb;
 }
+
+@media (min-width: 40rem) {
+  .package__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.25rem;
+  }
+
+  .main {
+    margin: 5rem auto;
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .package {
+    border-left: 0.25rem solid black;
+  }
+}
+

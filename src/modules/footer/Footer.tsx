@@ -1,6 +1,3 @@
-import React from 'react'
-import Details from '../details/Details';
-import Plans from '../plans/Plans';
 import './Footer.css';
 
 function Footer() {

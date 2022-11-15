@@ -15,7 +15,7 @@
   padding: 1.24rem;
   height: 33vh;
   width: 100%;
-  margin-top: 4%;
+  margin-top: 4rem;
   position: relative;
   /* border: 10px dashed black; */
 }
@@ -162,7 +162,6 @@
   #product-overview {
     height: 40vh;
     background-position: left 10% bottom 80%;
-    margin-top: 3%;
   }
   #product-overview h1 {
     font-size: 3rem;
@@ -170,13 +169,13 @@
 
   .plan {
     display: inline-block;
-    margin: 1rem;
+    margin: 0.1rem;
     width: 30%;
     min-width: 20rem;
   }
 
   .plan__list {
-    width: 80%;
+    width: 98%;
   }
 
   .key-feature {
