@@ -64,6 +64,13 @@
   font-size: 1.25rem;
   color: #0e4f1f;
   background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  /*  Top and bottom of font */
+  /* line-height: 2;  */
+  /* text-decoration: line-through dotted red; */
+  /* text-shadow: 2px 5px 1px grey; */
 }
 
 #plus {

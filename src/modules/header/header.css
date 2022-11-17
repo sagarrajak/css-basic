@@ -92,9 +92,9 @@
   padding: 3px;
 }
 
-.main-nav__item > a::after {
+/* .main-nav__item > a::after {
   content: " (Link)";
-}
+} */
 
 .main-nav__item > a:hover,
 .main-nav__item > a:active {

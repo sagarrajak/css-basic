@@ -13,7 +13,8 @@ function Customer() {
                     <h2 className="testimonial__subtitle">Founder of
                         <a href="tech-analysis.com">tech-analysis.com</a>
                     </h2>
-                    <p className="testimonial__text">uHost helped me realize my project with a highly constrained budget in like no time.</p>
+                    <p className="testimonial__text">uHost helped me realize my project 
+                                    with a highly constrained budget in like no time.</p>
                 </div>
             </div>
             <div className="testimonial" id="customer-2">
