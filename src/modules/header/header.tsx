@@ -45,7 +45,7 @@ function Header() {
                             <Link to="/customer">Customer</Link>
                         </li>
                         <li className='main-nav__item main-nav__item--cta'>
-                            <a href="start-hosting/index.html">Start Hosting</a>
+                                <Link to="/start-hosting">Start Hosting</Link>
                         </li>
                     </ul>
                 </nav>
@@ -59,7 +59,7 @@ function Header() {
                         <Link to="/customer">Customers</Link>
                     </li>
                     <li className="mobile-nav__item mobile-nav__item--cta">
-                        <a href="start-hosting/index.html">Start Hosting</a>
+                        <Link to="/start-hosting">Start Hosting</Link>
                     </li>
                 </ul>
             </nav>

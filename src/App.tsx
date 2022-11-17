@@ -4,6 +4,7 @@ import Customer from './modules/customer/Customer';
 import Details from './modules/details/Details';
 import Layout from './modules/Layout/Layout';
 import Plans from './modules/plans/Plans';
+import { StartHosting } from './starthosting/StartHosting';
 
 function App() {
   const hideButtons  = () => {
@@ -33,6 +34,7 @@ function App() {
           <Route index element={<Plans />}></Route>
           <Route path='details' element={<Details />}></Route>
           <Route path='customer' element={<Customer />}></Route>
+          <Route path='start-hosting' element={<StartHosting />}></Route>
         </Route>
       </Routes>
     </>
