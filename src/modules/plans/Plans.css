@@ -35,11 +35,12 @@
 
 .plan {
   background-color: #d5ffdc;
-  text-align: center;
   padding: 0.75rem;
-  /* margin: 1rem; */
   width: 100%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .plan--highlighted {
@@ -54,6 +55,7 @@
   padding: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
+  width: 90%;
 }
 
 .plan__title {
@@ -83,6 +85,9 @@
   /* width: 80%; */
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 #key-features {
@@ -144,16 +149,18 @@
   }
 
   .plan {
-    display: inline-block;
     margin: 0.3rem;
-    width: 30%;
-    /* min-width: 20rem; */
+    height: 30rem;
   }
-
+  .plan--highlighted {
+    height: 32rem !important;
+  }
   .plan__list {
     margin: auto;
-    width: 98%;
     max-width: 1500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .key-feature {
