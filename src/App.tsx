@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Customer from './modules/customer/Customer';
 import Details from './modules/details/Details';
+import FlexContainer from './modules/flex-container/FlexContainer';
 import Layout from './modules/Layout/Layout';
 import Plans from './modules/plans/Plans';
 import { StartHosting } from './starthosting/StartHosting';

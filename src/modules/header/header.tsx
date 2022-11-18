@@ -36,7 +36,8 @@ function Header() {
                         {/* uHost  */}
                         <img src={"uhost-icon.png"} alt="Uhost icon" />
                     </Link>
-                </div><nav className='main-nav'>
+                </div>
+                <nav className='main-nav'>
                     <ul className='main-nav__items'>
                         <li className='main-nav__item'>
                             <Link to="/details">Details</Link>
