@@ -1,10 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AutoFlow from './modules/autoflow/AutoFlow';
 import Customer from './modules/customer/Customer';
 import Details from './modules/details/Details';
 import Layout from './modules/Layout/Layout';
 import Plans from './modules/plans/Plans';
+import Tilling from './modules/Tiling/Tilling';
 import { StartHosting } from './starthosting/StartHosting';
+
 
 function App() {
   const hideButtons  = () => {

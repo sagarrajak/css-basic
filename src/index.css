@@ -7,6 +7,10 @@
   src: url("../public/static/sourceCodePro-black.ttf") format("truetype");
 }
 
+html {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,12 +19,19 @@
   font-size: 75%;
 } */
 
+#root {
+  display: grid; 
+  grid-template-rows: auto 8rem;
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Montserrat", sans-serif;
+  height: 100%;
 }
 
 code {
@@ -43,7 +54,7 @@ code {
 }
 
 #content {
-  min-height: calc(100vh - 4rem - 8rem);
+  /* min-height: calc(100vh - 4rem - 8rem); */
   margin-top: 4rem;
 }
 
