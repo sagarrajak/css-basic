@@ -9,9 +9,13 @@ function Plans() {
 
     if (backdrop && backdrop.style) {
       backdrop.style.display = 'block';
+      setTimeout(() => {
+        backdrop.classList.add('open');
+      }, 10);
     }
     if (model && model.style) {
       model.style.display = 'block';
+      model.classList.add("open");
     }
   };
 

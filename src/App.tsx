@@ -12,10 +12,13 @@ function App() {
     let model: any = document.querySelector(".modal");
 
     if (backdrop && backdrop.style) {
-      backdrop.style.display = 'none';
+      backdrop.classList.remove('open');
+      setTimeout(() => {
+        backdrop.style.display = 'none';
+      }, 10);
     }
     if (model && model.style) {
-      model.style.display = 'none';
+      model.classList.remove('open');
     }
   };
 

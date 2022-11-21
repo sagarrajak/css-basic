@@ -7,7 +7,15 @@ function Header() {
         let mobileNav: any = document.querySelector(".mobile-nav");
         let backdrop: any = document.querySelector(".backdrop");
         mobileNav.style.display = 'block';
-        backdrop.style.display = 'block';
+        if (backdrop && backdrop.style) {
+            backdrop.style.display = 'block';
+            setTimeout(() => {
+                backdrop.classList.add('open');
+            }, 10);
+        }
+        setTimeout(() => {
+            mobileNav.classList.add('nav-open');
+        }, 10)
     }
 
     useEffect(() => {
@@ -15,10 +23,20 @@ function Header() {
         let mobileNav = document.querySelector<HTMLDivElement>(".mobile-nav");
         if (backdrop) {
             backdrop.addEventListener("click", () => {
-                if (backdrop)
-                    backdrop.style.display = 'none';
-                if (mobileNav)
-                    mobileNav.style.display = 'none';
+                if (backdrop) {
+                    backdrop.classList.remove('open');
+                    setTimeout(() => {
+                        if (backdrop)
+                            backdrop.style.display = 'none';
+                    }, 10);
+                }
+                if (mobileNav) {
+                    mobileNav.classList.remove('nav-open');
+                    setTimeout(() => {
+                        if (mobileNav)
+                            mobileNav.style.display = 'none';
+                    }, 10)
+                }
             });
         }
     }, []);
@@ -45,7 +63,7 @@ function Header() {
                             <Link to="/customer">Customer</Link>
                         </li>
                         <li className='main-nav__item main-nav__item--cta'>
-                                <Link to="/start-hosting">Start Hosting</Link>
+                            <Link to="/start-hosting">Start Hosting</Link>
                         </li>
                     </ul>
                 </nav>

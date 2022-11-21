@@ -21,6 +21,7 @@
   margin: 1rem 0;
   position: relative;
   z-index: 0;
+  overflow: hidden;
 }
 
 .package:hover,
@@ -45,15 +46,17 @@
   color: white;
   background-color: #ff5454;
   height: 3rem;
-  width: 10rem;
+  width: 15rem;
   border: #ff5454;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   text-align: center;
   vertical-align: middle;
   padding: 1rem;
+  transform: rotate(45deg) translate(4rem, -4rem);
+  /* transform-origin: 1rem 1rem; */
   z-index: 10;
 }
-
+a
 .package__subtitle {
   color: #979797;
 }
