@@ -125,6 +125,15 @@
   background: white;
 }
 
+.main-nav__item--cta {
+  animation-name: wiggle;
+  animation-duration: 1000ms;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
 .main-nav__items {
   margin: 0;
   padding: 0;
@@ -153,5 +162,26 @@
   }
   .main-header__brand {
     display: inline-block;
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(20deg);
+  }
+  60% {
+    transform: rotate(30deg);
+  }
+  80% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(50deg);
   }
 }
