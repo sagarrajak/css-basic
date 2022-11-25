@@ -4,6 +4,7 @@ import Customer from './modules/customer/Customer';
 import Details from './modules/details/Details';
 import Layout from './modules/Layout/Layout';
 import Plans from './modules/plans/Plans';
+import ScssTutorial from './modules/scss-tutorial/ScssTutorial';
 import { StartHosting } from './starthosting/StartHosting';
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className='backdrop' onClick={hideButtons}></div>
+      {/* <div className='backdrop' onClick={hideButtons}></div>
       <div className="modal">
         <h1 className="modal__title">Do you want to continue?</h1>
         <div className="modal__actions">
@@ -36,7 +37,8 @@ function App() {
           <Route path='customer' element={<Customer />}></Route>
           <Route path='start-hosting' element={<StartHosting />}></Route>
         </Route>
-      </Routes>
+      </Routes> */}
+      <ScssTutorial />
     </>
 
   );

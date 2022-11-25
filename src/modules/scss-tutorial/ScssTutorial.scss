@@ -1,0 +1,89 @@
+$border: 0.05rem solid #521751;
+$colors: (primary: #fae5ff, secondary: #fa923f);
+$size-default: 1rem;
+$size-tiny: 0.2rem;
+
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 3rem 0;
+  box-sizing: border-box;
+}
+
+.sass-introduction {
+  border: $border;
+  background: map-get($colors ,  primary);
+  padding: $size-default*2;
+  text-align: center;
+  box-shadow: $size-tiny $size-tiny 0.1rem #ccc;
+  width: 90%;
+  box-sizing: border-box;
+  p {
+    margin: 0;
+  }
+
+  
+  .sass-details {
+    border: $border;
+    background: #fae5ff;
+    padding: $size-default;
+    text-align: center;
+    margin: $size-default*2 0;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .section-header {
+    border-bottom: $border;
+  }
+}
+
+.section-header {
+  h1 {
+    margin: 0 0 $size-default 0;
+  }
+}
+
+.documentation-links {
+  list-style: none;
+  margin: $size-default 0 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  li {
+    margin: $size-tiny 0;
+    background: white;
+  }
+  .documentation-link {
+    text-decoration: none;
+    color: #521751;
+    display: block;
+    padding: 0.2rem;
+    border: $border;
+    &:hover,
+    &:active {
+        color: white;
+        background: map-get($colors, secondary);
+        border-color: map-get($colors, secondary);
+    }
+  }
+}
+
+@media (min-width: 40rem) {
+  html {
+    font-size: 125%;
+  }
+  .sass-introduction,
+  .sass-details {
+    width: 30rem;
+  }
+}
